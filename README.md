@@ -97,4 +97,6 @@ Of course all requests have to be forwarded to index.php with a rewrite.
 
 This URL router is still very expandable, but it can already provide a solid basis for smaller projects.
 
+---
+
 Copyright 2020 Kabeers Network. Content Under MIT Licence
