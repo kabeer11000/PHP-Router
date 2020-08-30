@@ -28,6 +28,7 @@ if(isset($_REQUEST['page_id'])){
 - PHP Router Library
 
 ```php
+<?php
 
 // Include router class
 include('Route.php');
