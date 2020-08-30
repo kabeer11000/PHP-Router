@@ -3,6 +3,7 @@ Because everyone wants simple Express Style Routing for PHP
 
 More Documentation will be added Soon in the mean time stick with this!
 
+![Header Image](master/HeaderImage.jpg)
 
 ## The Problem
 ```php
@@ -93,5 +94,7 @@ RewriteRule ^(.*)$ index.php [QSA]
 As you can see, the router consists of less code than you might think. Only if the run() method gets executed, the individual routes registered with add () will be checked and executed. When running, the base path in which the project lives in, is always placed before the pattern and thus taken into account. If no match is found, the 404 route or the 405 route is automatically triggered.
 
 Of course all requests have to be forwarded to index.php with a rewrite.
+
+This URL router is still very expandable, but it can already provide a solid basis for smaller projects.
 
 Copyright 2020 Kabeers Network. Content Under MIT Licence
