@@ -1,5 +1,5 @@
 # PHP Router
-- Because everyone wants simple Express Style Routing for PHP
+Because everyone wants simple Express Style Routing for PHP
 
 More Documentation will be added Soon in the mean time stick with this!
 
@@ -23,6 +23,8 @@ if(isset($_REQUEST['page_id'])){
 }
 
 ```
+This method quickly becomes confusing and you lose yourself in parameters and if loops. The result is spagehtti code. In addition, the URLs are difficult to understand and not easy to remember.
+
 
 ## The Solution
 - PHP Router Library
@@ -65,9 +67,10 @@ Route::add('/foo/([0-9]*)/bar',function($var1){
 Route::run('/');
 
 ```
+Any routes can be created here. The parameters can be parsed from the route via RegExp and passed to the handler. In addition, you can control through which methods (get, post, put, patch, etc ...) the routes may be accessed. The handlers gets only executed if the routes match the entered path.
 
 
-# Finishing Up 
+## Finishing Up 
 Put this in your apache servers ```.htaccess``` file to use PHP Router
 
 ```htaccess
