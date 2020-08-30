@@ -3,7 +3,7 @@ Because everyone wants simple Express Style Routing for PHP
 
 More Documentation will be added Soon in the mean time stick with this!
 
-![Header Image](master/HeaderImage.jpg)
+![Header Image](HeaderImage.jpg)
 
 ## The Problem
 ```php
