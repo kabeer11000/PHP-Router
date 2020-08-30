@@ -90,5 +90,8 @@ RewriteCond %{REQUEST_FILENAME} !-d
 # Push every request to index.php
 RewriteRule ^(.*)$ index.php [QSA]
 ```
+As you can see, the router consists of less code than you might think. Only if the run() method gets executed, the individual routes registered with add () will be checked and executed. When running, the base path in which the project lives in, is always placed before the pattern and thus taken into account. If no match is found, the 404 route or the 405 route is automatically triggered.
+
+Of course all requests have to be forwarded to index.php with a rewrite.
 
 Copyright 2020 Kabeers Network. Content Under MIT Licence
